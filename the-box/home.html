@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230822114927">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">About Us</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Projects</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="#" class="menu__link"><span>Contact Us</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+
+
+
+
+		<main class="page">
+			<section class="page__main main">
+				<!-- Оболонка слайдера -->
+				<div class="main__slider swiper">
+					<!-- Частина слайдера, що рухається -->
+					<div class="main__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="main__slide swiper-slide">
+							<div class="main__img-ibg">
+								<picture><source srcset="img/main/main.webp" type="image/webp"><img src="img/main/main.jpg" alt="Image"></picture>
+							</div>
+						</div>
+						<!-- Слайд 2-->
+						<div class="main__slide swiper-slide">
+							<div class="main__img-ibg">
+								<picture><source srcset="img/main/1.webp" type="image/webp"><img src="img/main/1.jpg" alt="Image"></picture>
+							</div>
+						</div>
+						<!-- Слайд 3-->
+						<div class="main__slide swiper-slide">
+							<div class="main__img-ibg">
+								<picture><source srcset="img/main/main.webp" type="image/webp"><img src="img/main/main.jpg" alt="Image"></picture>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-buttons-block block-buttons-swiper">
+						<div class="block-buttons-swiper__title">Feature Projects</div>
+						<div class="block-buttons-swiper__text">The National University of Architecture</div>
+						<div class="block-buttons-swiper__arrows">
+							<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+							<button type="button" class="main-swiper-button-prev">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#arrow"></use>
+								</svg> Back</button>
+							<button type="button" class="main-swiper-button-next">Next
+								<svg>
+									<use xlink:href="img/icons/icons.svg#arrow"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div data-da=".main, 992, 1" class="main__container">
+					<h1 class="main__title">Building things is our mission.</h1>
+				</div>
+			</section>
+			<section class="page__reputation reputation">
+				<div class="reputation__container">
+					<h3 class="reputation__title common-title">Our Reputation</h3>
+					<div class="reputation__body block-reputation">
+						<div class="block-reputation__block">
+							<div class="block-reputation__avatar">
+								<img src="img/reputation/1.svg" alt="img">
+							</div>
+							<div class="block-reputation__title">Best Services</div>
+							<div class="block-reputation__text">Nullam senectus porttitor in eget. Eget rutrum leo interdum.</div>
+						</div>
+						<div class="block-reputation__block">
+							<div class="block-reputation__avatar">
+								<img src="img/reputation/1.svg" alt="img">
+							</div>
+							<div class="block-reputation__title">Best Teams</div>
+							<div class="block-reputation__text">Cursus semper tellus volutpat aliquet lacus. </div>
+						</div>
+						<div class="block-reputation__block">
+							<div class="block-reputation__avatar">
+								<img src="img/reputation/3.svg" alt="img">
+							</div>
+							<div class="block-reputation__title">Best Designs</div>
+							<div class="block-reputation__text">Ultricies at ipsum nunc, tristique nam lectus.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div class="about__img-ibg">
+						<picture><source srcset="img/about/about.webp" type="image/webp"><img src="img/about/about.jpg" alt="about"></picture>
+					</div>
+					<div class="about__block">
+						<h3 class="about__title common-title common-title_white">About us</h3>
+						<div class="about__text">
+							<p>For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.</p>
+							<p>We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
+						</div>
+						<button class="about__button">More on Our History</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<h3 class="services__title common-title">Services</h3>
+					<div class="services__body block-services">
+						<div class="block-services__content">
+							<div class="block-services__logo">
+								<img src="img/services/01.svg" alt="service-img">
+							</div>
+							<div class="block-services__line"></div>
+							<div class="block-services__value">Construction</div>
+						</div>
+						<div class="block-services__content block-services__content_bg-blue">
+							<div class="block-services__logo">
+								<img src="img/services/02.svg" alt="service-img">
+							</div>
+							<div class="block-services__line"></div>
+							<div class="block-services__value">Renovation</div>
+						</div>
+						<div class="block-services__content">
+							<div class="block-services__logo">
+								<img src="img/services/03.svg" alt="service-img">
+							</div>
+							<div class="block-services__line"></div>
+							<div class="block-services__value">Consultation</div>
+						</div>
+						<div class="block-services__content block-services__content_bg-blue">
+							<div class="block-services__logo">
+								<img src="img/services/04.svg" alt="service-img">
+							</div>
+							<div class="block-services__line"></div>
+							<div class="block-services__value">Repair Services</div>
+						</div>
+						<div class="block-services__content">
+							<div class="block-services__logo">
+								<img src="img/services/05.svg" alt="service-img">
+							</div>
+							<div class="block-services__line"></div>
+							<div class="block-services__value">Architecture</div>
+						</div>
+						<div class="block-services__content block-services__content_bg-blue">
+							<div class="block-services__logo">
+								<img src="img/services/06.svg" alt="service-img">
+							</div>
+							<div class="block-services__line"></div>
+							<div class="block-services__value">Electric</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__experience experience">
+				<div class="experience__container">
+					<div class="experience__main-blocks block-experience">
+						<div class="block-experience__content block-experience__content_clients">
+							<div class="block-experience__number">84</div>
+							<div class="block-experience__text">Happy Clients</div>
+						</div>
+						<div class="block-experience__content block-experience__content_left-top">
+							<div class="block-experience__number">123</div>
+							<div class="block-experience__text">Projects Completed</div>
+						</div>
+						<div class="block-experience__content block-experience__content_awards">
+							<div class="block-experience__number">37</div>
+							<div class="block-experience__text">Awards Win</div>
+						</div>
+						<div class="block-experience__content block-experience__content_right-bottom">
+							<div class="block-experience__number">30</div>
+							<div class="block-experience__text">Years in Business</div>
+						</div>
+					</div>
+					<div class="experience__description description-experience">
+						<h2 class="description-experience__title">30 Years Experience</h2>
+						<div class="description-experience__text">Our company has been the leading provided construction services to clients throughout the USA since 1988.</div>
+						<button class="description-experience__button">Contact Us</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__consultation consultation">
+				<div class="consultation__container">
+					<div class="consultation__text">
+						<h3 class="consultation__title">Free consultation with exceptional quality</h3>
+						<div class="consultation__call">Just one call away: <a href="#">+84 1102 2703</a></div>
+					</div>
+					<button class="consultation__button">Get your consultation</button>
+				</div>
+				<div class="consultation__bg-ibg">
+					<picture><source srcset="img/consultation/bg.webp" type="image/webp"><img src="img/consultation/bg.jpg" alt="#"></picture>
+				</div>
+			</section>
+			<section class="page__projects projects">
+				<div class="projects__container">
+					<h3 class="projects__title common-title">Projects</h3>
+					<div class="projects__body">
+						<div class="projects__filter filter-projects">
+							<button data-filter="all" class="filter-projects__item active" type="button">All</button>
+							<button data-filter="commercial" class="filter-projects__item" type="button">Commercial</button>
+							<button data-filter="residential" class="filter-projects__item" type="button">Residential</button>
+							<button data-filter="other" class="filter-projects__item" type="button">Other</button>
+						</div>
+						<div class="projects__items">
+							<!-- Оболонка слайдера -->
+							<div class="projects__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="projects__wrapper swiper-wrapper">
+									<!-- Слайд 1-->
+									<div class="projects__slide swiper-slide">
+										<article data-filter-item="commercial,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/2.webp" type="image/webp"><img src="img/projects/2.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="residential,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/3.webp" type="image/webp"><img src="img/projects/3.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="other,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/4.webp" type="image/webp"><img src="img/projects/4.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="other,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/5.webp" type="image/webp"><img src="img/projects/5.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+									</div>
+									<!-- Слайд 2-->
+									<div class="projects__slide swiper-slide">
+										<article data-filter-item="commercial,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/2.webp" type="image/webp"><img src="img/projects/2.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="residential,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/3.webp" type="image/webp"><img src="img/projects/3.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="other,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/4.webp" type="image/webp"><img src="img/projects/4.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="other,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/5.webp" type="image/webp"><img src="img/projects/5.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+									</div>
+									<!-- Слайд 3-->
+									<div class="projects__slide swiper-slide">
+										<article data-filter-item="commercial,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/2.webp" type="image/webp"><img src="img/projects/2.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="residential,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/3.webp" type="image/webp"><img src="img/projects/3.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="other,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/4.webp" type="image/webp"><img src="img/projects/4.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+										<article data-filter-item="other,all" class="projects__item project">
+											<a href="#" class="project__link">
+												<div class="project__img-ibg">
+													<picture><source srcset="img/projects/5.webp" type="image/webp"><img src="img/projects/5.jpg" alt="img"></picture>
+												</div>
+												<div class="project__info">
+													<div class="project__name">Wildstone Infra Hotel</div>
+													<div class="project__adress">2715 Ash Dr. San Jose, South Dakota</div>
+												</div>
+											</a>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects__navigation navigation-projects">
+						<div class="navigation-projects__body">
+							<button type="button" class="projects-swiper-button-prev">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#arrow"></use>
+								</svg>
+								Back
+							</button>
+							<div class="projects-swiper-pagination"></div>
+							<button type="button" class="projects-swiper-button-next">
+								Next
+								<svg>
+									<use xlink:href="img/icons/icons.svg#arrow"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__feedback feedback">
+				<div class="feedback__block">
+					<h3 class="feedback__title common-title">What can us do for you?</h3>
+					<div class="feedback__text">We are ready to work on a project of any complexity, whether it’s commercial or residential.</div>
+					<div class="feedback__form">
+						<form class="form-feedback" method="GET" enctype="multipart/form-data" action="#">
+							<div class="form-feedback__line">
+								<input data-required autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Your name" class="form-feedback__input">
+							</div>
+							<div class="form-feedback__line">
+								<input data-required="email" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Email" class="form-feedback__input">
+							</div>
+							<div class="form-feedback__sel-box">
+								<select name="form[]" data-class-modif="form" class="form-feedback__select" placeholder="Reason for Contacting">
+									<option value="1" selected>Reason for Contacting</option>
+									<option value="2">Try smth new</option>
+									<option value="3">Because-2</option>
+									<option value="4">Other</option>
+								</select>
+							</div>
+							<div class="form-feedback__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Phone" class="form-feedback__input">
+							</div>
+							<div class="form-feedback__line form-feedback__line_span-2">
+								<textarea name="message" class="form-feedback__area" placeholder="Message"></textarea>
+							</div>
+							<div class="form-feedback__line form-feedback__line_span-2">
+								<button type="submit" class="form-feedback__button">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__body">
+				<div class="footer__container">
+					<div class="footer__block info-footer">
+						<div class="info-footer__row">
+							<div class="info-footer__name">Address:</div>
+							<a href="#" class="info-footer__link">6391 Elgin St. Celina, Delaware 10299</a>
+						</div>
+						<div class="info-footer__row">
+							<div class="info-footer__name">Phone:</div>
+							<a href="tel:+1234567890" class="info-footer__link">+84 1102 2703</a>
+						</div>
+						<div class="info-footer__row">
+							<div class="info-footer__name">Email:</div>
+							<a href="mailto:hello@thebox.com" class="info-footer__link">hello@thebox.com</a>
+						</div>
+						<a href="#" class="footer__logo"><img src="img/logo.svg" alt=""></a>
+					</div>
+					<div class="footer__right-side news social">
+						<div class="news__row">
+							<div class="news__title">Newsletter:</div>
+							<form action="files/sendmail/sendmail.php" method="POST" class="news__form">
+								<input type="text" name="form[email]" data-error="Error" placeholder="E-mail" class="news__input">
+								<button type="submit" class="news__button">Subscribe</button>
+							</form>
+						</div>
+						<div class="social__row">
+							<div class="social__title">Social:</div>
+							<div class="social__items items-social">
+								<a href="#" class="items-social__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#fb"></use>
+									</svg>
+								</a>
+								<a href="#" class="items-social__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#in"></use>
+									</svg>
+								</a>
+								<a href="#" class="items-social__link">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#tw"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<div class="footer__rights">TheBox Company © 2022. All Rights Reserved</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+	</div>
+	<script src="js/app.min.js?_v=20230822114927"></script>
+</body>
+
+</html>
